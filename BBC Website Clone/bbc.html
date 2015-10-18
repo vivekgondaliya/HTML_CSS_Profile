@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vivek's BBC Clone</title>
+	<meta charset="utf-8"/>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div id="topbar">
+			<div class="fixedWidth">
+				
+				<div id="logo-div">
+					<img src="images/bbc-logo.png" alt="bbc-logo">
+				</div>
+				
+				<div id="sign-indiv">
+					<div id="sign-in-divimg">
+						<img src="images/sign-in.png" alt="sing-in img">	
+					</div>
+					Sign In
+				</div>
+				
+				<div class="news-menu">
+					<ul class="menu-list">
+						<li class="menu-items">News</li>
+						<li class="menu-items">Sports</li>
+						<li class="menu-items">Weather</li>
+						<li class="menu-items">iPlayer</li>
+						<li class="menu-items">TV</li>
+						<li class="menu-items">Radio</li>
+						<li class="menu-items">More...</li>
+					</ul>
+				</div>
+				<div id="search-div">
+					<input type="text" placeholder="Search..."/>
+				</div>
+			</div>
+		</div>
+		
+		<div class="clear"></div>
+
+		<div id="newsbar">
+			<div class="fixedWidth">
+				<div id="newsbar-title">
+					NEWS <span id="uk">UK</span>
+				</div>
+				<div id="rss">
+						RSS <img id="rss-img" src="images/rss.png" alt="rss-img">
+				</div>
+
+				<div class="clear"></div>
+				
+				<div class="newsbar-menu">
+					<ul class="newsbar-menu-list">
+						<li class="newsbar-menu-item">Home</li>
+						<li class="newsbar-menu-item">World</li>
+						<li class="newsbar-menu-item selected">UK</li>
+						<li class="newsbar-menu-item">England</li>
+						<li class="newsbar-menu-item">N.Ireland</li>
+						<li class="newsbar-menu-item">Scotland</li>
+						<li class="newsbar-menu-item">Wales</li>
+						<li class="newsbar-menu-item">Business</li>
+						<li class="newsbar-menu-item">Politics</li>
+						<li class="newsbar-menu-item">Health</li>
+						<li class="newsbar-menu-item">Education</li>
+						<li class="newsbar-menu-item">Sci/Environment</li>
+						<li class="newsbar-menu-item">Technology</li>
+						<li class="newsbar-menu-item">Entertainement & Arts</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="clear"></div>
+				
+		<div id="content">
+			<div class="fixedWidth">
+				<p> <span class="date">19 October 2015 </span>Updated at 15:23</p>
+
+				<div class="left-content">
+					<h1 id="left-content-title"> Pollution to spread across England</h1>
+					<img src="images/left-content-img.jpg" alt="some-img" id="left-content-img">
+					<div class="content-text">
+						<p>Health Warnings have been issued by the government as pollution spreading across England is forecast to hit high levels.</p>
+						<p><a class="video" href="#">Why are pollution levels so high?</a></p>
+						<p><a class="video" href="#">Saharan dust visible on cars</a></p>
+						<p><a class="video" href="#">How Saharan dust reached the UK?</a></p>
+						<p><a class="audio" href="#">Air pollution a 'serious issue'</a></p>
+					</div>
+				</div>
+				<div id="watch-listen">
+			 		<h2>Watch/Listen</h2>
+				
+			 		<div class="watch-carousel">
+				
+				 		<img id="arrow-left" src="images/left-arrow.png" />
+					
+				 		<div class="wl-block">
+						
+							 <img src="images/pic-1.png" />
+						
+					 			<div class="wl-block-link-container">
+						
+									 <a href="">Ceiling collapse theatre set to reopen</a>
+						
+					 			</div>
+						
+				 		</div>
+					
+				 		<div class="wl-block">
+						
+						 <img src="images/pic-2.png" />
+						
+					 		<div class="wl-block-link-container">
+						
+						 		<a href="">Frantic call after deadly landslide</a>
+						
+					 		</div>
+						
+				 		</div>
+					
+						 <img id="arrow-right" src="images/right-arrow.png" />
+					
+			 		</div>
+				
+			 		<div id="watch-listen-links">
+				
+				 		<p><span class="live">Live</span><a href="">Live coverage of Pistorius trial Live</a>
+				 		<p><span class="live">Live</span><a href="">BBC News Channel Live</a>
+				 		<p><span class="live">Live</span><a href="">BBC Radio 5 Live</a>
+			
+			 		</div>
+	 	 		</div>
+				<div class="clear"></div>
+				<div class="row">
+					<div class="col">
+						<img src="images/col1-img.jpg" alt="col1-img">
+						<div class="col-content">
+							<h2>Israeli killed in bus station attack</h2>
+							<p>An Israeli soldier is killed and several other people are wounded in a gun and knife attack at a bus station in southern Israel.</p><br/>
+							<p class="col-footer">MIDDLE EAST</p>	
+						</div>
+					</div>
+					<div class="col" id="col2">
+						<img src="images/col2-img.jpg" alt="col2-img">
+						<div class="col-content">
+							<h2>Stabbed candiate elected mayor</h2>
+							<p>A German politician who was stabbed in the neck while campaigning in the city of Cologne on Saturday is elected mayor of the city.</p><br/>
+							<p class="col-footer">EUROPE</p>
+						</div>	
+					</div>
+					<div class="col">
+						<img id="col-3-img" src="images/col3-img.jpg" alt="col3-img">
+						<div class="col-content">
+							<h2>Syria strikes 'kill 40 IS militants'</h2>
+							<p>At least 40 militants with the so-called Islamic State have been killed in air strikes in Syria, a monitoring group says.</p><br/>
+							<p class="col-footer">MIDDLE EAST</p>
+						</div>	
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+
+	</div>
+	<div class="footer">
+		<div class="fixedWidth">
+			<p>Copyright © 2015 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.</p>	
+		</div>
+	</div>
+</body>
+</html>
